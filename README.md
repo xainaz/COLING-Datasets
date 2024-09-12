@@ -79,3 +79,78 @@ Mind2Web provides a structured dataset to evaluate cross-domain generalization.
 - `attributes` (str): Serialized attributes of the element (use `json.loads` to convert back to dict)
 - `neg_candidates` (list[dict]): Other candidate elements in the page after preprocessing
 
+
+## Natural Questions (NQ) Dataset Access
+
+**Natural Questions (NQ)** is designed for training and evaluating question-answering systems, using real user queries and Wikipedia answers.
+
+### Steps to Access the Dataset
+
+1. **Visit the Dataset Page**:
+   Access the official dataset and leaderboard:
+   - [Natural Questions Dataset](http://ai.google.com/research/NaturalQuestions)
+
+2. **Download the Dataset**:
+   You can download the dataset directly from the official page linked above, which provides:
+   - **Training Set**: 307,372 examples
+   - **Development Set**: 7,830 examples
+   - **Test Set**: 7,842 examples (hidden)
+
+3. **Use Preprocessing Tools**:
+   The repository provides preprocessing utilities and functions to simplify the dataset format. Use the `simplify_nq_example` function found in `data_utils.py` to transform the dataset into a more accessible format.
+
+---
+
+## TriviaQA Dataset Access
+
+**TriviaQA** is a large-scale, distantly supervised challenge dataset for reading comprehension.
+
+### Steps to Access the Dataset
+
+1. **Visit the TriviaQA Website**:
+   Download the dataset directly from the official website:
+   - [TriviaQA Website](http://nlp.cs.washington.edu/triviaqa/)
+
+2. **Requirements**:
+   Ensure you have the following installed:
+   - Python 3
+   - Python packages: `tensorflow` (if using BiDAF), `nltk`, `tqdm`
+
+3. **Evaluate the Dataset**:
+   To evaluate a model using the TriviaQA dataset, use the following command:
+
+   ```bash
+   python3 -m evaluation.triviaqa_evaluation --dataset_file samples/triviaqa_sample.json --prediction_file samples/sample_predictions.json
+   ```
+---
+
+## GSM8K Dataset Access
+
+**GSM8K (Grade School Math 8K)** is a dataset of 8.5K linguistically diverse grade school math word problems, designed to support question answering tasks that require multi-step reasoning.
+
+### Steps to Access the Dataset
+
+1. **Visit the Dataset Page**:
+   You can access the GSM8K dataset directly on Hugging Face:
+   - [GSM8K Dataset on Hugging Face](https://huggingface.co/datasets/openai/gsm8k)
+
+2. **Install the Hugging Face Datasets Library**:
+   To use the dataset, first install the `datasets` library:
+   ```bash
+   pip install datasets
+   ```
+
+3. **Load the Dataset**:
+   After installing the library, you can load the dataset with the following code:
+   ```python
+   from datasets import load_dataset
+   dataset = load_dataset("openai/gsm8k")
+   ```
+
+4. **Dataset Structure**:
+   - **Training Set**: 7,473 examples
+   - **Test Set**: 1,319 examples
+   - Each example contains a math problem and a multi-step reasoning solution.
+
+---
+
