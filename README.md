@@ -46,7 +46,7 @@ Mind2Web provides a structured dataset to evaluate cross-domain generalization.
     ```bash
     git clone git@hf.co:datasets/osunlp/Mind2Web
     ```
-
+- ** Test Set**: Available [here](https://buckeyemailosu-my.sharepoint.com/:u:/g/personal/deng_595_buckeyemail_osu_edu/EUkdc16xUC1EplDiXS1bvSEBOddFLgOyJNkWJOxdltNEGA?e=8N1D9S)
 ### Data Splits:
 
 - **Train**: 1,009 instances
