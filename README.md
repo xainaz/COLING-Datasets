@@ -39,7 +39,8 @@ To clone from huggingface:
 git clone git@hf.co:datasets/osunlp/Mind2Web
 ```
 ## Test Set: 
-##Data Splits
+## Data Splits
+
 train: 1,009 instances
 test:
 Cross Task: 252 instances, tasks from the same website are seen during training
