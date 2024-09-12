@@ -1,0 +1,376 @@
+[
+  {
+    "input": "Check for pickup restaurant available in Boston, NY on March 18, 5pm with just one guest",
+    "output": [
+      "[combobox]  Reservation type -> SELECT: Pickup",
+      "[svg]   -> CLICK",
+      "[searchbox]  Find a location -> TYPE: Boston",
+      "[span]  Boston -> CLICK",
+      "[svg]   -> CLICK",
+      "[button]  18 -> CLICK",
+      "[combobox]  Time -> SELECT: 5:00 PM",
+      "[svg]   -> CLICK",
+      "[span]  2 guests -> CLICK",
+      "[combobox]  Size -> SELECT: 1 guest",
+      "[button]  Update search -> CLICK"
+    ]
+  },
+  {
+    "input": "Book a winery tour in Napa Valley in a winery which serves Mediterranean cuisine with wine testing for 4 guests on April 15, 10 am in a outdoor setup.",
+    "output": [
+      "[svg]   -> CLICK",
+      "[svg]   -> CLICK",
+      "[searchbox]  Find a location -> TYPE: NAPA VALLEY",
+      "[span]  Napa Valley -> CLICK",
+      "[combobox]  Reservation type -> SELECT: Wineries",
+      "[svg]   -> CLICK",
+      "[svg]   -> CLICK",
+      "[button]  15 -> CLICK",
+      "[combobox]  Time -> SELECT: 10:00 AM",
+      "[combobox]  Party size -> SELECT: 4 guests",
+      "[svg]   -> CLICK",
+      "[button]  Edit cuisine type filter -> CLICK",
+      "[checkbox]  Mediterranean -> CLICK",
+      "[button]  Submit -> CLICK",
+      "[button]  Open additional search filters -> CLICK",
+      "[checkbox]  Outdoors -> CLICK",
+      "[checkbox]  Wine tasting -> CLICK",
+      "[button]  Update search -> CLICK",
+      "[span]  10:00 AM -> CLICK"
+    ]
+  },
+  {
+    "input": "Sign Allan Smith for email offers with the email allan.smith@gmail.com and zip code 10001",
+    "output": [
+      "[a]   -> CLICK",
+      "[textbox]  First Name (required) -> TYPE: Allan",
+      "[textbox]  Last Name (required) -> TYPE: Smith",
+      "[textbox]  Email Address (required) -> TYPE: allan.smith@gmail.com",
+      "[textbox]  Confirm Email Address (required) -> TYPE: allan.smith@gmail.com",
+      "[textbox]  ZIP Code (required) -> TYPE: 10001",
+      "[button]  Submit -> CLICK"
+    ]
+  },
+  {
+    "input": "Find a mini van at Brooklyn City from April 5th to April 8th for a 22 year old renter.",
+    "output": [
+      "[searchbox]  Pick-up & Return Location (ZIP, City or Airport) (... -> TYPE: Brooklyn",
+      "[option]  Brooklyn, NY, US Select -> CLICK",
+      "[button]  Selected Pick-Up Date 03/19/2023 -> CLICK",
+      "[button]  04/05/2023 -> CLICK",
+      "[svg]   -> CLICK",
+      "[button]  04/08/2023 -> CLICK",
+      "[combobox]  Renter Age -> SELECT: 22",
+      "[button]  Vehicle Class -> CLICK",
+      "[radio]  Minivans -> CLICK",
+      "[button]  Apply Filter -> CLICK",
+      "[button]  Browse Vehicles -> CLICK"
+    ]
+  },
+  {
+    "input": "Find the highest rated dog collar under 10 dollar.",
+    "output": [
+      "[link]  Shop by Category -> CLICK",
+      "[link]  Pet -> CLICK",
+      "[span]  Pet Type -> CLICK",
+      "[link]  Dog (1,338) -> CLICK",
+      "[span]  Category -> CLICK",
+      "[link]  Collars & Leashes (485) -> CLICK",
+      "[link]  Sort by: Featured -> CLICK",
+      "[link]  Highest Rated -> CLICK",
+      "[div]  Price -> CLICK",
+      "[link]  Under $10 (1) -> CLICK"
+    ]
+  },
+  {
+    "input": "Compare the fare types to book a 1-adult ticket from Springfiels, IL to Austin, TX for April 29th 2023",
+    "output": [
+      "[combobox]  Enter your departing city, airport name, or airpor... -> TYPE: SPRINGFIELD",
+      "[button]  Springfield, IL, US (SPI) -> CLICK",
+      "[combobox]  Enter your destination city, airport name, or airp... -> TYPE: AUSTIN",
+      "[button]  Austin, TX, US (AUS) -> CLICK",
+      "[span]   -> CLICK",
+      "[button]  Find flights -> CLICK",
+      "[textbox]  Date -> CLICK",
+      "[button]  Move backward to switch to the previous month. -> CLICK",
+      "[button]  Saturday, April 29, 2023 -> CLICK",
+      "[button]  Update -> CLICK",
+      "[link]  Details -> CLICK",
+      "[link]  Seats -> CLICK"
+    ]
+  },
+  {
+    "input": "Get an SUV with an additional driver and wifi for pick up in  any rental location near Washington regional airport on June 1, 11 am, and drop off at Washington international airport on June 2, 11 am, and pay for the booking instantly.",
+    "output": [
+      "[button]  Locations -> HOVER",
+      "[link]  Find a Location -> CLICK",
+      "[textbox]  Search by Airport, City, Zip, Address or Attractio... -> TYPE: washington",
+      "[span]  Washington County Regional Apo -> CLICK",
+      "[link]  Make a Reservation -> CLICK",
+      "[textbox]  mm/dd/yyyy -> CLICK",
+      "[link]  Next -> CLICK",
+      "[link]  1 -> CLICK",
+      "[link]  2 -> CLICK",
+      "[combobox]  Pick Up Time -> SELECT: 11:00 AM",
+      "[combobox]  Return Time -> SELECT: 11:00 AM",
+      "[textbox]  Return to same location -> TYPE: washington",
+      "[div]  Washington Dulles Intl Airport -> CLICK",
+      "[generic]  Vehicle Type * -> CLICK",
+      "[p]  SUVs & Wagons -> CLICK",
+      "[button]  Select My Car -> CLICK",
+      "[link]  Pay Now -> CLICK",
+      "[checkbox]  $21.99/Day -> CLICK",
+      "[checkbox]  $13.00/Day -> CLICK",
+      "[button]  Continue -> CLICK"
+    ]
+  },
+  {
+    "input": "Find a men's UA outlet T-shirt of XL size and add to cart.",
+    "output": [
+      "[menuitem]  Outlet -> CLICK",
+      "[link]  Mens -> CLICK",
+      "[div]  Product Category -> CLICK",
+      "[link]  Clothing -> CLICK",
+      "[div]  Product Type -> CLICK",
+      "[link]  Short Sleeves -> CLICK",
+      "[div]  Size -> CLICK",
+      "[link]  XL -> CLICK",
+      "[img]  Men's UA Tech\u2122 2.0 Short Sleeve -> CLICK",
+      "[button]  XL -> CLICK",
+      "[button]  Add to Bag -> CLICK"
+    ]
+  },
+  {
+    "input": "Browse for wall art with a price range of $25 to $50.",
+    "output": [
+      "[textbox]  Search by keyword or web id -> TYPE: wall art",
+      "[input]   -> CLICK",
+      "[link]  Wall Art -> CLICK",
+      "[div]  Price -> CLICK",
+      "[link]  $25 to $50 (5,006) -> CLICK"
+    ]
+  },
+  {
+    "input": "Add the cheapest Women's Sweaters to my shopping cart.",
+    "output": [
+      "[span]  Shop by Category -> CLICK",
+      "[link]  Women -> HOVER",
+      "[link]  Sweaters & Cardigans -> CLICK",
+      "[link]  Sort by: Featured -> CLICK",
+      "[link]  Price Low-High -> CLICK",
+      "[p]  Women's Sonoma Goods For Life\u00ae All Over Stitch -> CLICK",
+      "[button]  Add to Cart -> CLICK"
+    ]
+  },
+  {
+    "input": "Find a cheapest SUV in Brooklyn for 1 day.",
+    "output": [
+      "[link]  Search for cars -> CLICK",
+      "[textbox]  Pick-up location -> CLICK",
+      "[textbox]  Pick-up location -> TYPE: Brooklyn",
+      "[span]  Brooklyn, New York, United States -> CLICK",
+      "[span]  Different drop-off -> CLICK",
+      "[tab]  Same drop-off -> CLICK",
+      "[button]  End date -> CLICK",
+      "[button]  May 22, 2023 -> CLICK",
+      "[svg]   -> CLICK",
+      "[img]  SUV -> CLICK",
+      "[div]  $75 -> CLICK",
+      "[div]  View Deal -> HOVER"
+    ]
+  },
+  {
+    "input": "From Birmingham (BHX) to Paris search for packages with casinos, restaurant, fitness and a free internet from April 7th to 11th.",
+    "output": [
+      "[link]  Search for packages -> CLICK",
+      "[textbox]  From -> TYPE: Birmingham",
+      "[span]  Birmingham, England, United Kingdom -> CLICK",
+      "[textbox]  Enter destination or airport -> TYPE: Paris",
+      "[span]  City -> CLICK",
+      "[generic]  Tuesday April 4th -> CLICK",
+      "[div]  7 -> CLICK",
+      "[button]  Tuesday April 11, 2023 -> CLICK",
+      "[svg]   -> CLICK",
+      "[checkbox]  Free internet -> CLICK",
+      "[button]  Amenities -> CLICK",
+      "[checkbox]  Casino -> CLICK",
+      "[checkbox]  Restaurant -> CLICK",
+      "[checkbox]  Fitness -> CLICK"
+    ]
+  },
+  {
+    "input": "Find a comedy movie streaming on Netflix and add to watchlist.",
+    "output": [
+      "[link]  MOVIES -> HOVER",
+      "[link]  Netflix streaming -> CLICK",
+      "[svg]   -> CLICK",
+      "[div]   -> CLICK",
+      "[button]  APPLY -> CLICK",
+      "[img]  Chris Rock: Selective Outrage -> CLICK",
+      "[button]  WANT TO SEE -> CLICK"
+    ]
+  },
+  {
+    "input": "Book parking spot for James SMith at Stewart Hotel in New York for 2 hours. The street address is 133 st avenue in New York. Zip code is 10001 and phone number is 888888888. The email address is buckeye.foobar@gmail.com. Employer's name is Gua AB.",
+    "output": [
+      "[span]  Enter an Address or Venue to find parking -> CLICK",
+      "[span]  Enter an Address or Venue to find parking -> TYPE: stewart hotel",
+      "[option]  STEWART HOTEL\u00a0\u00a0148 W 31st Street, New York Parking... -> CLICK",
+      "[link]  BOOK MONTHLY PARKING -> CLICK",
+      "[textbox]  First Name -> CLICK",
+      "[textbox]  First Name -> TYPE: James",
+      "[textbox]  Last Name -> TYPE: SMith",
+      "[textbox]  Address1 -> TYPE: 133 st avenue",
+      "[textbox]  City Name -> TYPE: New York",
+      "[select]  Alabama -> SELECT: New York",
+      "[textbox]  Zip Code -> TYPE: 10001",
+      "[textbox]  (###) ###-#### -> TYPE: 888888888",
+      "[textbox]  Email Address -> TYPE: buckeye.foobar@gmail.com",
+      "[textbox]  Email Address -> TYPE: buckeye.foobar@gmail.com",
+      "[textbox]  Employer Name -> CLICK",
+      "[textbox]  Employer Name -> TYPE: Gua AB",
+      "[button]  Submit -> CLICK"
+    ]
+  },
+  {
+    "input": "Find motorcycle parking near Radio City Music Hall.",
+    "output": [
+      "[span]  Enter an Address or Venue to find parking -> TYPE: radio city music hall",
+      "[em]  Music -> CLICK",
+      "[strong]  Filters -> CLICK",
+      "[checkbox]  Motorcycle Parking -> CLICK",
+      "[link]  View Details ROCKEFELLER CENTER -> CLICK"
+    ]
+  },
+  {
+    "input": "Browse events happening at Madison Square Garden.",
+    "output": [
+      "[combobox]  \uf002\u00a0 Enter an Address or Venue to find parking -> TYPE: Madison Square Garden",
+      "[em]  Madison -> CLICK"
+    ]
+  },
+  {
+    "input": "Find parking in New York City from June 5th to 9th.",
+    "output": [
+      "[span]  Enter an Address or Venue to find parking -> TYPE: New York City",
+      "[option]  New York City\u00a0\u00a0 City -> CLICK",
+      "[span]  Mar 9 -> CLICK",
+      "[i]   -> CLICK",
+      "[i]   -> CLICK",
+      "[i]   -> CLICK",
+      "[gridcell]  5 -> CLICK",
+      "[span]  Jun 5 -> CLICK",
+      "[gridcell]  9 -> CLICK",
+      "[button]  SEARCH -> CLICK"
+    ]
+  },
+  {
+    "input": "Get quote for Amtrak vacation for two adults across country while leaving from Chicago on the 22nd of April. It should include Deluxe bedroom. The passenger is named John Mark with email address of johnmark@gmail.com and phone number of 234567890.",
+    "output": [
+      "[button]  DEALS -> CLICK",
+      "[link]  VACATIONS & RAIL TOURS Train vacation packages thr... -> CLICK",
+      "[img]   -> CLICK",
+      "[link]  Close -> CLICK",
+      "[button]  Instant Quote -> CLICK",
+      "[textbox]  What city would you like to depart from? -> TYPE: Chicago",
+      "[checkbox]  I'm interested in the reverse trip of the selected... -> CLICK",
+      "[checkbox]  Deluxe Bedroom -> CLICK",
+      "[button]  Continue -> CLICK",
+      "[link]  Close -> CLICK",
+      "[textbox]  *Preferred date of travel -> CLICK",
+      "[link]  22 -> CLICK",
+      "[button]  Continue -> CLICK",
+      "[div]  + -> CLICK",
+      "[textbox]  About Your Trip: -> TYPE: Wedding Anniversary",
+      "[button]  Continue -> CLICK",
+      "[textbox]  *First Name -> TYPE: John",
+      "[textbox]  *Last Name -> TYPE: Mark",
+      "[textbox]  *Email Address -> TYPE: Johnmark@gmail.com",
+      "[textbox]  *Phone Number -> TYPE: 234567890",
+      "[label]  I am NOT a Travel Advisor. -> CLICK",
+      "[button]  Submit Quote Request -> HOVER"
+    ]
+  },
+  {
+    "input": "See today's deals on video games and find the best deal on the lowest-priced mouse.",
+    "output": [
+      "[button]  Open Menu -> CLICK",
+      "[link]  Movies, Music & Games -> CLICK",
+      "[link]  Video Games -> CLICK",
+      "[link]  Today's Deals -> CLICK",
+      "[link]  PC -> CLICK",
+      "[link]  Accessories -> CLICK",
+      "[link]  Gaming Mice -> CLICK",
+      "[span]  Featured -> CLICK",
+      "[option]  Price: Low to High -> CLICK"
+    ]
+  },
+  {
+    "input": "Find Metformin 1000mg tablet price and details.",
+    "output": [
+      "[button]  Open Menu -> CLICK",
+      "[link]  See All -> CLICK",
+      "[link]  Amazon Health -> CLICK",
+      "[link]  Amazon Pharmacy -> CLICK",
+      "[span]  Type your medication name -> TYPE: Metformin 1000mg",
+      "[li]  metformin 1000mg tablet -> CLICK",
+      "[img]  Metformin (Generic for Glucophage, Oral Tablet) -> CLICK"
+    ]
+  },
+  {
+    "input": "Add a pair of diamond stud earrings to the cart.",
+    "output": [
+      "[textbox]  Search by keyword or web id -> TYPE: diamond stud earrings",
+      "[span]  diamond stud earrings -> CLICK",
+      "[img]  10k Gold 1 Carat T.W. Black Diamond Stud Earrings -> CLICK",
+      "[button]  Add to Cart -> CLICK"
+    ]
+  },
+  {
+    "input": "Find men's running shoes of size 9 with lowest price and add to bag.",
+    "output": [
+      "[menuitem]  Men -> CLICK",
+      "[link]  Shoes -> CLICK",
+      "[link]  Running -> CLICK",
+      "[div]  Size -> CLICK",
+      "[link]  9 -> CLICK",
+      "[span]  Now Trending -> CLICK",
+      "[li]  Price (Low - High) -> CLICK",
+      "[img]  Men's UA Surge 3 Running Shoes -> CLICK",
+      "[button]  9 -> CLICK",
+      "[button]  Add to Bag -> CLICK"
+    ]
+  },
+  {
+    "input": "Show reviews of top critics for lowest rated Tom Hanks work",
+    "output": [
+      "[textbox]  Search -> TYPE: Tom Hanks",
+      "[p]  Tom Hanks -> CLICK",
+      "[link]  My Life in Ruins (2009) -> CLICK",
+      "[link]  Top Critics (49) -> CLICK"
+    ]
+  },
+  {
+    "input": "Find a ticket from Abbotsford to Sheboygan on March 26, 2023.",
+    "output": [
+      "[button]  Explore\ue911 -> CLICK",
+      "[link]  Route map -> CLICK",
+      "[textbox]  Pick an origin Pick a destination -> TYPE: Abbotsford",
+      "[span]  Abbotsford, WI -> CLICK",
+      "[textbox]  Enter a town, city or zipcode -> TYPE: Sheboygan",
+      "[span]  Sheboygan, WI -> CLICK",
+      "[button]  Search -> CLICK",
+      "[input]   -> CLICK",
+      "[gridcell]  March 26, 2023 -> CLICK",
+      "[button]  Find tickets -> CLICK"
+    ]
+  },
+  {
+    "input": "Find bus stops in Alanson, MI",
+    "output": [
+      "[button]  Explore\ue911 -> CLICK",
+      "[link]  Bus stops -> CLICK",
+      "[button]  Alanson, MI \ue911 -> CLICK"
+    ]
+  }
+]

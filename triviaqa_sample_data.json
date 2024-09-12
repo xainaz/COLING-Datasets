@@ -1,0 +1,985 @@
+[
+  {
+    "input": "Which American-born Sinclair won the Nobel Prize for Literature in 1930?",
+    "output": {
+      "aliases": [
+        "(Harry) Sinclair Lewis",
+        "Harry Sinclair Lewis",
+        "Lewis, (Harry) Sinclair",
+        "Grace Hegger",
+        "Sinclair Lewis"
+      ],
+      "normalized_aliases": [
+        "grace hegger",
+        "lewis harry sinclair",
+        "harry sinclair lewis",
+        "sinclair lewis"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "sinclair lewis",
+      "type": "WikipediaEntity",
+      "value": "Sinclair Lewis"
+    }
+  },
+  {
+    "input": "Where in England was Dame Judi Dench born?",
+    "output": {
+      "aliases": [
+        "Park Grove (1895)",
+        "York UA",
+        "Yorkish",
+        "UN/LOCODE:GBYRK",
+        "York, UK",
+        "Eoforwic",
+        "Park Grove School",
+        "York Ham",
+        "The weather in York",
+        "City of York",
+        "York, England",
+        "York, Yorkshire",
+        "York ham",
+        "County Borough of York",
+        "YORK",
+        "Eoferwic",
+        "Park Grove Primary School",
+        "York, North Yorkshire",
+        "Yoisk",
+        "York",
+        "York (England)"
+      ],
+      "normalized_aliases": [
+        "york yorkshire",
+        "eoferwic",
+        "park grove primary school",
+        "park grove school",
+        "weather in york",
+        "park grove 1895",
+        "eoforwic",
+        "county borough of york",
+        "york uk",
+        "un locode gbyrk",
+        "city of york",
+        "york england",
+        "york ua",
+        "york ham",
+        "york",
+        "yorkish",
+        "yoisk",
+        "york north yorkshire"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "york",
+      "type": "WikipediaEntity",
+      "value": "York"
+    }
+  },
+  {
+    "input": "In which decade did Billboard magazine first publish and American hit chart?",
+    "output": {
+      "aliases": [
+        "30's",
+        "30\u2019s",
+        "30s",
+        "30s AD",
+        "30-39"
+      ],
+      "normalized_aliases": [
+        "30 39",
+        "30s",
+        "30 s",
+        "30s ad"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "30s",
+      "type": "WikipediaEntity",
+      "value": "30s"
+    }
+  },
+  {
+    "input": "From which country did Angola achieve independence in 1975?",
+    "output": {
+      "aliases": [
+        "Portoga\u0142o",
+        "Republic of Portugal",
+        "PORTUGAL",
+        "Portekiz",
+        "Portugallu",
+        "O Papagaio",
+        "ISO 3166-1:PT",
+        "Portunga",
+        "Phu-to-ga",
+        "Potigal",
+        "Port\u00fbnga",
+        "Portugul",
+        "An Phortaing\u00e9il",
+        "Portug\u0101le",
+        "Portugale",
+        "Portingale",
+        "Potiti",
+        "Portugali",
+        "Portugall",
+        "Portek\u00eez",
+        "Bo Dao Nha",
+        "Portuguese Republic",
+        "Portogallo",
+        "Portugaul",
+        "Portogalo",
+        "Portyngal",
+        "Yn Phortiugal",
+        "Portugalio",
+        "Portug\u00e1l",
+        "Portugual",
+        "Portuga",
+        "Portgual",
+        "Portugalsko",
+        "Portugaleje",
+        "Ph\u00fb-t\u00f4-g\u00e2",
+        "Portugalujo",
+        "Portugalija",
+        "Pertual",
+        "P\u00f2tigal",
+        "Portugal",
+        "B\u1ed3 \u0110\u00e0o Nha",
+        "Portugalska",
+        "Rep\u00fablica Portuguesa",
+        "Portiwgal",
+        "Portugal\u0117j\u0117",
+        "Port\u00fagal",
+        "Portegal",
+        "An Phortaingeil",
+        "Republica Portuguesa"
+      ],
+      "normalized_aliases": [
+        "portugul",
+        "portugallu",
+        "portugalska",
+        "p\u00f2tigal",
+        "portugaul",
+        "portugalujo",
+        "portuguese republic",
+        "iso 3166 1 pt",
+        "republic of portugal",
+        "portugalsko",
+        "portugual",
+        "b\u1ed3 \u0111\u00e0o nha",
+        "portugall",
+        "port\u00fbnga",
+        "bo dao nha",
+        "phortaingeil",
+        "portugale",
+        "portugal",
+        "portug\u00e1l",
+        "portugal\u0117j\u0117",
+        "portiwgal",
+        "phu to ga",
+        "portugalija",
+        "portugalio",
+        "portogallo",
+        "ph\u00fb t\u00f4 g\u00e2",
+        "portegal",
+        "rep\u00fablica portuguesa",
+        "portug\u0101le",
+        "phortaing\u00e9il",
+        "yn phortiugal",
+        "portoga\u0142o",
+        "portuga",
+        "portugaleje",
+        "portekiz",
+        "o papagaio",
+        "portunga",
+        "potigal",
+        "portek\u00eez",
+        "pertual",
+        "portogalo",
+        "portugali",
+        "portyngal",
+        "republica portuguesa",
+        "portingale",
+        "port\u00fagal",
+        "portgual",
+        "potiti"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "portugal",
+      "type": "WikipediaEntity",
+      "value": "Portugal"
+    }
+  },
+  {
+    "input": "Which city does David Soul come from?",
+    "output": {
+      "aliases": [
+        "Chi-Beria",
+        "Sayre language academy",
+        "Chicago",
+        "Chicago, Illinois",
+        "Hog Butcher for the World",
+        "Land of smelly onions",
+        "Ariel Community Academy",
+        "The weather in Chicago",
+        "Chicago, Illinois, U.S.A.",
+        "Chicago, Illionis",
+        "Near North Montessori",
+        "Religion in Chicago",
+        "Chicago Finance Committee",
+        "The Paris of America",
+        "The city of Chicago",
+        "City of Chicago",
+        "List of sister cities of Chicago",
+        "UN/LOCODE:USCHI",
+        "Chicago theatre scene",
+        "Chicago, WI",
+        "The City of Broad Shoulders",
+        "City of Broad Shoulders",
+        "Sister Cities of Chicago",
+        "Chicago il",
+        "Chicago, Illinois, USA",
+        "Performing arts in Chicago",
+        "Chicago Transportation Committee",
+        "Chicago, Wisconsin",
+        "City of chicago",
+        "Chicago theater scene",
+        "Chicago, Il",
+        "Chicago, IL.",
+        "Chicago, Ill.",
+        "City of Chicago, Illinois",
+        "Chi town",
+        "Chicago, United States",
+        "Chicago (Ill.)",
+        "Transport in Chicago",
+        "Chicago, Illinois, United States",
+        "Chicago (IL)",
+        "USCHI",
+        "Chichago",
+        "Chcago",
+        "Chicago, Illinois, U.S.",
+        "Sister Cities Chicago",
+        "Chicago, USA",
+        "Chi City",
+        "Chicago, IL",
+        "Chi-Town",
+        "Chicago theatre",
+        "Paris of America",
+        "Chicago, Illinois, US",
+        "Chicago Illinois",
+        "The city of Chicago, Illinois",
+        "Sister cities of Chicago"
+      ],
+      "normalized_aliases": [
+        "sayre language academy",
+        "chicago transportation committee",
+        "chicago illinois u s",
+        "sister cities of chicago",
+        "sister cities chicago",
+        "transport in chicago",
+        "chicago illinois",
+        "chicago illinois usa",
+        "chi town",
+        "hog butcher for world",
+        "religion in chicago",
+        "chicago",
+        "chicago wi",
+        "near north montessori",
+        "un locode uschi",
+        "city of broad shoulders",
+        "chicago theatre",
+        "chicago usa",
+        "uschi",
+        "chicago il",
+        "city of chicago",
+        "chicago finance committee",
+        "list of sister cities of chicago",
+        "chi beria",
+        "weather in chicago",
+        "chicago wisconsin",
+        "land of smelly onions",
+        "ariel community academy",
+        "chicago theater scene",
+        "chicago united states",
+        "paris of america",
+        "chicago illionis",
+        "chicago illinois united states",
+        "chcago",
+        "chi city",
+        "chicago illinois us",
+        "performing arts in chicago",
+        "chicago theatre scene",
+        "chichago",
+        "chicago ill",
+        "city of chicago illinois"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "chicago",
+      "type": "WikipediaEntity",
+      "value": "Chicago"
+    }
+  },
+  {
+    "input": "Who won Super Bowl XX?",
+    "output": {
+      "aliases": [
+        "Chicago Bears",
+        "Chicago Staleys",
+        "Decatur Staleys",
+        "Chicago Bears football",
+        "Chicago bears",
+        "Save Da Planet",
+        "Chicago Gators"
+      ],
+      "normalized_aliases": [
+        "chicago bears",
+        "chicago staleys",
+        "chicago gators",
+        "decatur staleys",
+        "save da planet",
+        "chicago bears football"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "chicago bears",
+      "type": "WikipediaEntity",
+      "value": "Chicago Bears"
+    }
+  },
+  {
+    "input": "Which was the first European country to abolish capital punishment?",
+    "output": {
+      "aliases": [
+        "Norv\u00e8ge",
+        "Mainland Norway",
+        "Norway",
+        "Norvege",
+        "Noregur",
+        "NORWAY",
+        "Norwegian state",
+        "Etymology of Norway",
+        "Noruega",
+        "Norwegen",
+        "ISO 3166-1:NO",
+        "Noreg",
+        "Republic of Norway",
+        "Norwegian kingdom",
+        "Kongeriket Noreg",
+        "Name of Norway",
+        "Kongeriket Norge",
+        "Noorwegen",
+        "Kingdom of Norway",
+        "Sport in Norway",
+        "Norwegia",
+        "Royal Kingdom of Norway"
+      ],
+      "normalized_aliases": [
+        "norwegen",
+        "kongeriket norge",
+        "norway",
+        "republic of norway",
+        "noorwegen",
+        "norvege",
+        "mainland norway",
+        "kingdom of norway",
+        "sport in norway",
+        "noreg",
+        "noruega",
+        "norwegia",
+        "noregur",
+        "royal kingdom of norway",
+        "name of norway",
+        "kongeriket noreg",
+        "norwegian kingdom",
+        "etymology of norway",
+        "norv\u00e8ge",
+        "iso 3166 1 no",
+        "norwegian state"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "norway",
+      "type": "WikipediaEntity",
+      "value": "Norway"
+    }
+  },
+  {
+    "input": "In which country did he widespread use of ISDN begin in 1988?",
+    "output": {
+      "aliases": [
+        "\u65e5\u672c\u570b",
+        "State of Japan",
+        "Ja-pan",
+        "Nihon",
+        "Nippon",
+        "Japang",
+        "Modern\u2013era Japan",
+        "Etymology of Japan",
+        "Japan (country)",
+        "Republic of Japan",
+        "Japanese financial sector",
+        "Nihon-koku",
+        "ISO 3166-1:JP",
+        "\u65e5\u672c",
+        "Japian",
+        "Japan",
+        "JapaN",
+        "The State of Japan",
+        "Riben",
+        "Nippon-koku",
+        "JPN",
+        "Jpan",
+        "R\u00ecb\u011bn",
+        "\u65e5\u672c\u56fd",
+        "Japao",
+        "JAPAN",
+        "Japoa",
+        "\ud83d\uddfe"
+      ],
+      "normalized_aliases": [
+        "nihon koku",
+        "nihon",
+        "japoa",
+        "japang",
+        "japan",
+        "\u65e5\u672c\u570b",
+        "etymology of japan",
+        "iso 3166 1 jp",
+        "jpan",
+        "japan country",
+        "riben",
+        "r\u00ecb\u011bn",
+        "\ud83d\uddfe",
+        "japanese financial sector",
+        "japian",
+        "nippon koku",
+        "state of japan",
+        "nippon",
+        "modern\u2013era japan",
+        "republic of japan",
+        "\u65e5\u672c\u56fd",
+        "jpn",
+        "japao",
+        "ja pan",
+        "\u65e5\u672c"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "japan",
+      "type": "WikipediaEntity",
+      "value": "Japan"
+    }
+  },
+  {
+    "input": "What is Bruce Willis' real first name?",
+    "output": {
+      "aliases": [
+        "Walter (TV Series)",
+        "Walter",
+        "Walter (disambiguation)",
+        "Walter (TV series)"
+      ],
+      "normalized_aliases": [
+        "walter disambiguation",
+        "walter",
+        "walter tv series"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "walter",
+      "type": "WikipediaEntity",
+      "value": "Walter"
+    }
+  },
+  {
+    "input": "Which William wrote the novel Lord Of The Flies?",
+    "output": {
+      "aliases": [
+        "Golding",
+        "Golding (surname)",
+        "Golding (disambiguation)"
+      ],
+      "normalized_aliases": [
+        "golding",
+        "golding surname",
+        "golding disambiguation"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "golding",
+      "type": "WikipediaEntity",
+      "value": "Golding"
+    }
+  },
+  {
+    "input": "Which innovation for the car was developed by Prince Henry of Prussia in 1911?",
+    "output": {
+      "aliases": [
+        "Rear-window wiper",
+        "Headlight washer",
+        "Windshield wiper",
+        "Windshield wipers",
+        "Wipers (car)",
+        "Headlamp wiper",
+        "Windscreen wipers",
+        "MAGIC VISION CONTROL",
+        "Intermittent windshield wiper",
+        "Windscreen washer",
+        "Headlight wiper",
+        "Headlamp washer",
+        "Wiper blade",
+        "Windshield washer",
+        "Windscreen wiper"
+      ],
+      "normalized_aliases": [
+        "rear window wiper",
+        "headlight washer",
+        "headlight wiper",
+        "windscreen wiper",
+        "windscreen washer",
+        "windshield washer",
+        "headlamp wiper",
+        "intermittent windshield wiper",
+        "magic vision control",
+        "windscreen wipers",
+        "windshield wiper",
+        "headlamp washer",
+        "windshield wipers",
+        "wipers car",
+        "wiper blade"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "windshield wipers",
+      "type": "WikipediaEntity",
+      "value": "Windshield wipers"
+    }
+  },
+  {
+    "input": "How is musician William Lee Conley better known?",
+    "output": {
+      "aliases": [
+        "Bill Broonzy",
+        "Big Bill Broonzey",
+        "William Lee Conley Broonzy",
+        "Big Bill Broonzy",
+        "William Broonzy"
+      ],
+      "normalized_aliases": [
+        "big bill broonzey",
+        "william broonzy",
+        "william lee conley broonzy",
+        "big bill broonzy",
+        "bill broonzy"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "big bill broonzy",
+      "type": "WikipediaEntity",
+      "value": "Big Bill Broonzy"
+    }
+  },
+  {
+    "input": "How is Joan Molinsky better known?",
+    "output": {
+      "aliases": [
+        "Queen of Comedy",
+        "Heidi Abromowitz",
+        "Joan Rivers (TV) Show",
+        "Joan Alexandra Molinsky",
+        "Diary of a Mad Diva",
+        "Joan rivers",
+        "Heidi abromowitz",
+        "Joan River",
+        "Joan Rivers Show",
+        "Joan Rivers"
+      ],
+      "normalized_aliases": [
+        "joan rivers",
+        "queen of comedy",
+        "diary of mad diva",
+        "joan rivers tv show",
+        "joan rivers show",
+        "joan alexandra molinsky",
+        "heidi abromowitz",
+        "joan river"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "joan rivers",
+      "type": "WikipediaEntity",
+      "value": "Joan Rivers"
+    }
+  },
+  {
+    "input": "In which branch of the arts is Patricia Neary famous?",
+    "output": {
+      "aliases": [
+        "Ballet",
+        "Ballet competitions",
+        "Ballet schools",
+        "Balet, India",
+        "Balletti",
+        "Ballet dancing",
+        "1938 ballet premieres",
+        "Balletto",
+        "Balletomane",
+        "2011 ballet premieres",
+        "1940 ballet premieres",
+        "Balletomanes",
+        "1939 ballet premieres",
+        "Ballet characters",
+        "Ballet teachers",
+        "Ballet dance",
+        "Classical Dance",
+        "Ballets",
+        "Ballet lessons",
+        "1915 ballet premieres",
+        "1914 ballet premieres",
+        "Classical dance",
+        "UN/LOCODE:INBLT",
+        "1916 ballet premieres",
+        "Balet",
+        "Ballett"
+      ],
+      "normalized_aliases": [
+        "balletti",
+        "un locode inblt",
+        "1916 ballet premieres",
+        "ballet",
+        "ballets",
+        "balletomane",
+        "ballet schools",
+        "1938 ballet premieres",
+        "1939 ballet premieres",
+        "1940 ballet premieres",
+        "balletto",
+        "ballet competitions",
+        "balet",
+        "classical dance",
+        "1914 ballet premieres",
+        "balet india",
+        "1915 ballet premieres",
+        "ballett",
+        "ballet dancing",
+        "balletomanes",
+        "ballet dance",
+        "ballet teachers",
+        "2011 ballet premieres",
+        "ballet characters",
+        "ballet lessons"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "ballet",
+      "type": "WikipediaEntity",
+      "value": "Ballet"
+    }
+  },
+  {
+    "input": "Which country is Europe's largest silk producer?",
+    "output": {
+      "aliases": [
+        "Environment of Italy",
+        "Itali\u00ebn",
+        "Subdivisions of Italy",
+        "Republic of Italy",
+        "ItalY",
+        "ISO 3166-1:IT",
+        "Etymology of Italy",
+        "Itali",
+        "Pollution in Italy",
+        "Administrative divisions of Italy",
+        "Austrian Empire (Italy)",
+        "Italija",
+        "Italie",
+        "Italia",
+        "Italian Republic",
+        "Second Italian Republic",
+        "Italy",
+        "Italio",
+        "Repubblica Italiana",
+        "It\u00e0lia",
+        "The Italian republic"
+      ],
+      "normalized_aliases": [
+        "second italian republic",
+        "it\u00e0lia",
+        "italio",
+        "iso 3166 1 it",
+        "italija",
+        "etymology of italy",
+        "repubblica italiana",
+        "itali",
+        "italia",
+        "austrian empire italy",
+        "republic of italy",
+        "itali\u00ebn",
+        "subdivisions of italy",
+        "italy",
+        "pollution in italy",
+        "administrative divisions of italy",
+        "italie",
+        "italian republic",
+        "environment of italy"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "italy",
+      "type": "WikipediaEntity",
+      "value": "Italy"
+    }
+  },
+  {
+    "input": "The VS-300 was a type of what?",
+    "output": {
+      "aliases": [
+        "\ud83d\ude81",
+        "Helicopters",
+        "Civilian helicopter",
+        "Pescara (helicopter)",
+        "Cargo helicopter",
+        "Copter",
+        "Helecopter",
+        "List of deadliest helicopter crashes",
+        "Helichopper",
+        "Helocopter",
+        "Cargo Helicopter",
+        "Helicopter",
+        "Helicoptor",
+        "Anatomy of a helicopter"
+      ],
+      "normalized_aliases": [
+        "helocopter",
+        "civilian helicopter",
+        "helicopters",
+        "\ud83d\ude81",
+        "cargo helicopter",
+        "anatomy of helicopter",
+        "pescara helicopter",
+        "copter",
+        "helicoptor",
+        "helecopter",
+        "helicopter",
+        "list of deadliest helicopter crashes",
+        "helichopper"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "helicopter",
+      "type": "WikipediaEntity",
+      "value": "Helicopter"
+    }
+  },
+  {
+    "input": "At which university did Joseph Goebbels become a doctor of philosophy?",
+    "output": {
+      "aliases": [
+        "Heidelberg romantics",
+        "UN/LOCODE:DEHEI",
+        "Heidelberg, West Germany",
+        "Wieblingen",
+        "Heidelberg",
+        "Heidelberg, Germany"
+      ],
+      "normalized_aliases": [
+        "un locode dehei",
+        "wieblingen",
+        "heidelberg west germany",
+        "heidelberg",
+        "heidelberg germany",
+        "heidelberg romantics"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "heidelberg",
+      "type": "WikipediaEntity",
+      "value": "Heidelberg"
+    }
+  },
+  {
+    "input": "Which prince is Queen Elizabeth II's youngest son?",
+    "output": {
+      "aliases": [
+        "Eadweard",
+        "Edward"
+      ],
+      "normalized_aliases": [
+        "eadweard",
+        "edward"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "edward",
+      "type": "WikipediaEntity",
+      "value": "Edward"
+    }
+  },
+  {
+    "input": "When did the founder of Jehovah's Witnesses say the world would end?",
+    "output": {
+      "aliases": [
+        "one thousand, nine hundred and fourteen",
+        "1914"
+      ],
+      "normalized_aliases": [
+        "1914",
+        "one thousand nine hundred and fourteen"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "1914",
+      "type": "Numerical",
+      "value": "1914"
+    }
+  },
+  {
+    "input": "Who found the remains of the Titanic?",
+    "output": {
+      "aliases": [
+        "Bob Ballard",
+        "Robert Duane Ballard",
+        "Robert Ballard",
+        "Robert %22Bob%22 Ballard",
+        "Robert d. ballard"
+      ],
+      "normalized_aliases": [
+        "robert duane ballard",
+        "robert ballard",
+        "robert d ballard",
+        "bob ballard",
+        "robert 22bob 22 ballard"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "robert ballard",
+      "type": "WikipediaEntity",
+      "value": "Robert Ballard"
+    }
+  },
+  {
+    "input": "Who was the only Spice Girl not to have a middle name?",
+    "output": {
+      "aliases": [
+        "My Love Is For Real (Victoria Beckham song",
+        "Romeo James Beckham",
+        "Harper Seven Beckham",
+        "Posh Spice",
+        "Victoria addams",
+        "Victoria Beckham",
+        "Victoria Adams Beckham",
+        "Harper Beckham",
+        "Victoria Caroline Beckham",
+        "I'd Give It All Away",
+        "Come Together (Victoria Beckham album)",
+        "Posh spice",
+        "The Hustla",
+        "My Love Is For Real (Victoria Beckham song)",
+        "Victoria beckham"
+      ],
+      "normalized_aliases": [
+        "come together victoria beckham album",
+        "victoria adams beckham",
+        "harper seven beckham",
+        "harper beckham",
+        "victoria caroline beckham",
+        "hustla",
+        "victoria addams",
+        "victoria beckham",
+        "posh spice",
+        "romeo james beckham",
+        "my love is for real victoria beckham song",
+        "i d give it all away"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "posh spice",
+      "type": "WikipediaEntity",
+      "value": "Posh Spice"
+    }
+  },
+  {
+    "input": "What are the international registration letters of a vehicle from Algeria?",
+    "output": {
+      "aliases": [
+        "DZ (disambiguation)",
+        "Dz.",
+        "DZs",
+        "Dz",
+        "D.z.",
+        "DZ",
+        "D Z",
+        "D.Z."
+      ],
+      "normalized_aliases": [
+        "dz disambiguation",
+        "d z",
+        "dzs",
+        "dz"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "dz",
+      "type": "WikipediaEntity",
+      "value": "DZ"
+    }
+  },
+  {
+    "input": "How did Jock die in Dallas?",
+    "output": {
+      "aliases": [
+        "Helicopter accident"
+      ],
+      "normalized_aliases": [
+        "helicopter accident"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "helicopter accident",
+      "type": "FreeForm",
+      "value": "Helicopter accident"
+    }
+  },
+  {
+    "input": "What star sign is Michael Caine?",
+    "output": {
+      "aliases": [
+        "Pisces (disambiguation)",
+        "Piscean",
+        "Picese",
+        "Pisces",
+        "Piscese",
+        "Pisese"
+      ],
+      "normalized_aliases": [
+        "pisces disambiguation",
+        "pisces",
+        "piscese",
+        "piscean",
+        "picese",
+        "pisese"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "pisces",
+      "type": "WikipediaEntity",
+      "value": "Pisces"
+    }
+  },
+  {
+    "input": "Who wrote the novel Evening Class?",
+    "output": {
+      "aliases": [
+        "Maeve Binchy"
+      ],
+      "normalized_aliases": [
+        "maeve binchy"
+      ],
+      "matched_wiki_entity_name": "",
+      "normalized_matched_wiki_entity_name": "",
+      "normalized_value": "maeve binchy",
+      "type": "WikipediaEntity",
+      "value": "Maeve Binchy"
+    }
+  }
+]
