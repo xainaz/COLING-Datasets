@@ -103,7 +103,7 @@ Mind2Web provides a structured dataset to evaluate cross-domain generalization.
 
 ## TriviaQA Dataset Access
 
-**TriviaQA** is a large-scale, distantly supervised challenge dataset for reading comprehension.
+**TriviaQA** is a reading comprehension dataset containing over **650K** question-answer-evidence **triples**. TriviaQA includes **95K** question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, **six** per question on average, that provide high quality distant supervision for answering the questions.
 
 ### Steps to Access the Dataset
 
